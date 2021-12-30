@@ -1,0 +1,16 @@
+{
+  "testFiles": "**/*.feature",
+  "env": {
+        "TAGS": "@smoke"
+    },
+    "reporter": "mochawesome",
+   "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": true,
+      "html": true,
+      "json": false
+   }
+
+    
+}
+
